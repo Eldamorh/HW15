@@ -10,10 +10,10 @@ public class Customer {
     }
 
     void SendOrder() {
-
+        Order order = new SpecialOrder();
     }
 
     Order receiveOrder() {
-        return null;
+        return new NormalOrder();
     }
 }
